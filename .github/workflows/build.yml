@@ -29,9 +29,6 @@ jobs:
     - name: Install macOS dependencies
       if: runner.os == 'macOS'
       run: brew install gmp
-    - name: Install Windows dependencies
-      if: runner.os == 'Windows'
-      uses: mswjs/setup-msvc-dev@v1
 
     # Build C++ libraries
     - name: Build libstark and dependencies
@@ -45,7 +42,7 @@ jobs:
     
     # Upload artifact
     - name: Upload prebuilds
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: prebuilds-${{ matrix.os }}-${{ matrix.arch }}
         path: prebuilds
@@ -66,8 +63,6 @@ jobs:
       with:
         ndk-version: r25c
 
-    # iOS Setup is implicit on macOS runner
-
     # Build C++ libraries with cross-compilation toolchain
     - name: Build libstark for Android (ARM64)
       if: matrix.target == 'android-arm64'
@@ -79,9 +74,7 @@ jobs:
       if: matrix.target == 'ios-arm64'
       run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w --sysroot $(xcrun --sdk iphoneos --show-sdk-path) -arch arm64"
 
-    # Compile the final shared library for the mobile target
-    # (This step would be similar to Step 1, but using the cross-compiler)
-    # For simplicity, we will just package the static libs for now.
+    # Package the compiled static libraries
     - name: Package Mobile Libraries
       run: |
         mkdir -p mobile_libs
@@ -92,7 +85,7 @@ jobs:
 
     # Upload artifact
     - name: Upload mobile libs
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: mobile-libs-${{ matrix.target }}
         path: mobile_libs
@@ -103,13 +96,13 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
       with:
         path: artifacts
     - name: Combine artifacts
       run: |
-        mkdir -p release_assets
-        find artifacts -name "prebuilds-*" -type d -exec cp -r {}/prebuilds/* release_assets/ \;
+        mkdir -p release_assets/prebuilds
+        find artifacts -name "prebuilds-*" -type d -exec cp -r {}/prebuilds/* release_assets/prebuilds/ \;
         find artifacts -name "mobile-libs-*" -type d -exec cp -r {}/* release_assets/ \;
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v1
