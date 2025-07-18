@@ -56,7 +56,7 @@ jobs:
         # Globally disable debugging code
         sed -i.bak 's/CPPFLAGS =/CPPFLAGS = -DNDEBUG/' flags.mk
         # Remove problematic CPU flags from the gadgetlib Makefile
-        sed -i.bak 's/-maes -msse4//g' tinyram/gadgetlib/gadgetlib/Makefile
+        sed -i.bak 's/-mtune=native//g' tinyram/gadgetlib/gadgetlib/Makefile
         # Set the base CFLAGS without CPU-specific flags for macOS
         sed -i.bak 's/CFLAGS =/CFLAGS = -fPIC -std=c++14 -O3 -w/' flags.mk
         make fft algebralib libstark gadgetlib CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
