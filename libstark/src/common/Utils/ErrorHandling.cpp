@@ -4,25 +4,31 @@
  *
  * The file ErrorHandling.cpp contains various utility functions and date type definitions used by the different 
  * classes in the project.
- * 
- * For more information - Read the documentation of the header file ErrorHandling.hpp.
+ * * For more information - Read the documentation of the header file ErrorHandling.hpp.
  */
   /************************************************************************************************************/
 #include <iostream>
+#include <sstream>
+#include <stdexcept>
+
 #ifndef WIN32
 #include <unistd.h>
 #endif
+
 #include "ErrorHandling.hpp"
+
+// This header is required for the backtrace functions and should be
+// included only for GCC-compatible compilers on Linux/macOS.
+#ifdef __GNUC__
+#include <execinfo.h>
+#endif
 
 using namespace std;
 
 namespace libstark {
 
-
-
-
 /*****************************************************************************/
-/***********************  ErrorHandling********** ****************************/
+/*********************** ErrorHandling********** ****************************/
 /*****************************************************************************/
 
 void ErrorHandling::fatalError(string msg) {

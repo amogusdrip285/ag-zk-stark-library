@@ -44,30 +44,19 @@ jobs:
     # Build C++ libraries (OS-specific steps)
     - name: Build libstark and dependencies (Linux)
       if: runner.os == 'Linux'
-      run: |
-        sed -i.bak 's/CFLAGS =/CFLAGS = -fPIC -mssse3 -maes -std=c++14 -O3 -w/' flags.mk
-        sed -i.bak 's/CPPFLAGS =/CPPFLAGS = -DNDEBUG/' flags.mk
-        make fft algebralib libstark gadgetlib CC=gcc CXX=g++
+      run: make fft algebralib libstark gadgetlib CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CPPFLAGS="-DNDEBUG" CC=gcc CXX=g++
 
     - name: Build libstark and dependencies (macOS)
       if: runner.os == 'macOS'
       run: |
         echo "/usr/local/opt/gcc@13/bin" >> $GITHUB_PATH
-        # Globally disable debugging code
-        sed -i.bak 's/CPPFLAGS =/CPPFLAGS = -DNDEBUG/' flags.mk
-        # Remove problematic CPU flags from the gadgetlib Makefile
-        sed -i.bak 's/-maes -msse4 -mtune=native//g' tinyram/gadgetlib/gadgetlib/Makefile
-        # Set the base CFLAGS without CPU-specific flags for macOS
-        sed -i.bak 's/CFLAGS =/CFLAGS = -fPIC -std=c++14 -O3 -w/' flags.mk
-        make fft algebralib libstark gadgetlib CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
+        # On macOS, we must also specify the correct archiver (ar) tool and remove problematic flags.
+        make fft algebralib libstark gadgetlib CFLAGS="-fPIC -std=c++14 -O3 -w" CPPFLAGS="-DNDEBUG" CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
 
     - name: Build libstark and dependencies (Windows)
       if: runner.os == 'Windows'
       shell: msys2 {0}
-      run: |
-        sed -i.bak 's/CFLAGS =/CFLAGS = -fPIC -mssse3 -maes -std=c++14 -O3 -w/' flags.mk
-        sed -i.bak 's/CPPFLAGS =/CPPFLAGS = -DNDEBUG/' flags.mk
-        make fft algebralib libstark gadgetlib CC=gcc CXX=g++
+      run: make fft algebralib libstark gadgetlib CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CPPFLAGS="-DNDEBUG" CC=gcc CXX=g++
 
     # Build Node.js addon
     - name: Install and Build Node Addon
