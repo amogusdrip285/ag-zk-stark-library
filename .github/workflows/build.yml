@@ -1,0 +1,119 @@
+name: Build Pre-built Binaries
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build_desktop:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        arch: [x64]
+        include:
+          - os: macos-latest
+            arch: arm64
+    runs-on: ${{ matrix.os }}
+    
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    # Install dependencies
+    - name: Install Linux dependencies
+      if: runner.os == 'Linux'
+      run: sudo apt-get update && sudo apt-get install -y libgmp-dev make g++
+    - name: Install macOS dependencies
+      if: runner.os == 'macOS'
+      run: brew install gmp
+    - name: Install Windows dependencies
+      if: runner.os == 'Windows'
+      uses: mswjs/setup-msvc-dev@v1
+
+    # Build C++ libraries
+    - name: Build libstark and dependencies
+      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w"
+
+    # Build Node.js addon
+    - name: Install and Build Node Addon
+      run: |
+        npm install
+        npm run prebuild -- --arch ${{ matrix.arch }}
+    
+    # Upload artifact
+    - name: Upload prebuilds
+      uses: actions/upload-artifact@v3
+      with:
+        name: prebuilds-${{ matrix.os }}-${{ matrix.arch }}
+        path: prebuilds
+
+  build_mobile:
+    strategy:
+      matrix:
+        target: [android-arm64, android-x86_64, ios-arm64]
+    runs-on: ${{ contains(matrix.target, 'ios') && 'macos-latest' || 'ubuntu-latest' }}
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    # Android Setup
+    - name: Setup Android NDK
+      if: contains(matrix.target, 'android')
+      uses: nttld/setup-ndk@v1
+      with:
+        ndk-version: r25c
+
+    # iOS Setup is implicit on macOS runner
+
+    # Build C++ libraries with cross-compilation toolchain
+    - name: Build libstark for Android (ARM64)
+      if: matrix.target == 'android-arm64'
+      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang CXX=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang++
+    - name: Build libstark for Android (x86_64)
+      if: matrix.target == 'android-x86_64'
+      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android21-clang CXX=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android21-clang++
+    - name: Build libstark for iOS (ARM64)
+      if: matrix.target == 'ios-arm64'
+      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w --sysroot $(xcrun --sdk iphoneos --show-sdk-path) -arch arm64"
+
+    # Compile the final shared library for the mobile target
+    # (This step would be similar to Step 1, but using the cross-compiler)
+    # For simplicity, we will just package the static libs for now.
+    - name: Package Mobile Libraries
+      run: |
+        mkdir -p mobile_libs
+        cp bin/libstark/libstark.a mobile_libs/
+        cp bin/algebralib/libalgebralib.a mobile_libs/
+        cp bin/gadgetlib/libgadgetlib.a mobile_libs/
+        cp bin/fft/libfft.a mobile_libs/
+
+    # Upload artifact
+    - name: Upload mobile libs
+      uses: actions/upload-artifact@v3
+      with:
+        name: mobile-libs-${{ matrix.target }}
+        path: mobile_libs
+
+  release:
+    needs: [build_desktop, build_mobile]
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3
+      with:
+        path: artifacts
+    - name: Combine artifacts
+      run: |
+        mkdir -p release_assets
+        find artifacts -name "prebuilds-*" -type d -exec cp -r {}/prebuilds/* release_assets/ \;
+        find artifacts -name "mobile-libs-*" -type d -exec cp -r {}/* release_assets/ \;
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: release_assets/**/*
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
