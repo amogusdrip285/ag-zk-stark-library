@@ -63,6 +63,11 @@ jobs:
       shell: bash
       run: |
         npm install
+        # Fix execute permissions for scripts on non-Windows runners
+        if [ "$RUNNER_OS" != "Windows" ]; then
+          chmod +x ./node_modules/.bin/node-gyp-build
+          chmod +x ./node_modules/.bin/prebuildify
+        fi
         npm run prebuild -- --arch ${{ matrix.arch }}
     
     # Upload artifact
