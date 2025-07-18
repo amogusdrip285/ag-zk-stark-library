@@ -44,19 +44,19 @@ jobs:
     # Build C++ libraries (OS-specific steps)
     - name: Build libstark and dependencies (Linux)
       if: runner.os == 'Linux'
-      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc CXX=g++
+      run: make fft algebralib libstark gadgetlib CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc CXX=g++
 
     - name: Build libstark and dependencies (macOS)
       if: runner.os == 'macOS'
       run: |
         echo "/usr/local/opt/gcc@13/bin" >> $GITHUB_PATH
-        # On macOS, we must also specify the correct archiver (ar) tool.
-        make CFLAGS="-fPIC -std=c++14 -O3 -w" CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
+        # On macOS, we build only the required libraries and specify the correct archiver (ar) tool.
+        make fft algebralib libstark gadgetlib CFLAGS="-fPIC -std=c++14 -O3 -w" CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
 
     - name: Build libstark and dependencies (Windows)
       if: runner.os == 'Windows'
       shell: msys2 {0}
-      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc CXX=g++
+      run: make fft algebralib libstark gadgetlib CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc CXX=g++
 
     # Build Node.js addon
     - name: Install and Build Node Addon
