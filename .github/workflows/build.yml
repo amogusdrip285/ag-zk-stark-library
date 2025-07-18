@@ -29,7 +29,7 @@ jobs:
 
     - name: Install macOS dependencies
       if: runner.os == 'macOS'
-      run: brew install gmp gcc
+      run: brew install gmp gcc@13
 
     - name: Install Windows dependencies
       if: runner.os == 'Windows'
@@ -41,8 +41,17 @@ jobs:
           make
           mingw-w64-x86_64-gcc
 
-    # Build C++ libraries
-    - name: Build libstark and dependencies
+    # Build C++ libraries (OS-specific steps)
+    - name: Build libstark and dependencies (Linux)
+      if: runner.os == 'Linux'
+      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc CXX=g++
+
+    - name: Build libstark and dependencies (macOS)
+      if: runner.os == 'macOS'
+      run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc-13 CXX=g++-13
+
+    - name: Build libstark and dependencies (Windows)
+      if: runner.os == 'Windows'
       shell: msys2 {0}
       run: make CFLAGS="-fPIC -mssse3 -maes -std=c++14 -O3 -w" CC=gcc CXX=g++
 
