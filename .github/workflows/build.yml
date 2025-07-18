@@ -50,7 +50,6 @@ jobs:
       if: runner.os == 'macOS'
       run: |
         echo "/usr/local/opt/gcc@13/bin" >> $GITHUB_PATH
-        # On macOS, add CPPFLAGS="-DNDEBUG" to disable Linux-specific stack trace code
         make fft algebralib libstark gadgetlib CFLAGS="-fPIC -std=c++14 -O3 -w" CPPFLAGS="-DNDEBUG" CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
 
     - name: Build libstark and dependencies (Windows)
