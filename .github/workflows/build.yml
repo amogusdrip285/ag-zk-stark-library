@@ -56,9 +56,7 @@ jobs:
       run: |
         npm install
         # Fix execute permissions for scripts on non-Windows runners
-        if [ "$RUNNER_OS" != "Windows" ]; then
-          chmod -R +x ./node_modules/.bin
-        fi
+        chmod -R +x ./node_modules/.bin
         npm run prebuild -- --arch ${{ matrix.arch }}
     
     # Upload artifact
