@@ -45,7 +45,7 @@ jobs:
     - name: Build libstark and dependencies (Linux)
       if: runner.os == 'Linux'
       run: |
-        sed -i.bak "s|^CFLAGS.*|CFLAGS = -fPIC -mssse3 -maes -std=c++14 -O3 -w|" flags.mk
+        sed -i.bak "s|^CFLAGS.*|CFLAGS = -fPIC -std=c++14 -O3 -w|" flags.mk
         sed -i.bak "s|^CPPFLAGS.*|CPPFLAGS = -DNDEBUG|" flags.mk
         make fft algebralib libstark gadgetlib CC=gcc CXX=g++
 
