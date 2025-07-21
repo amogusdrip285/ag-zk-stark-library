@@ -45,7 +45,7 @@ jobs:
     - name: Build libstark and dependencies (Linux)
       if: runner.os == 'Linux'
       run: |
-        sed -i.bak "s|^CFLAGS.*|CFLAGS = -fPIC -std=c++14 -O3 -w|" flags.mk
+        sed -i.bak "s|^CFLAGS.*|CFLAGS = -fPIC -mssse3 -maes -std=c++14 -O3 -w|" flags.mk
         sed -i.bak "s|^CPPFLAGS.*|CPPFLAGS = -DNDEBUG|" flags.mk
         make fft algebralib libstark gadgetlib CC=gcc CXX=g++
 
@@ -55,10 +55,16 @@ jobs:
         echo "/usr/local/opt/gcc@13/bin" >> $GITHUB_PATH
         # Globally disable debugging code
         sed -i.bak 's/CPPFLAGS =/CPPFLAGS = -DNDEBUG/' flags.mk
-        # Remove problematic CPU flags from the Makefiles that override CFLAGS
+        # Remove problematic CPU flags from ALL Makefiles that might override CFLAGS
+        sed -i.bak 's/-maes -msse4 -mtune=native -mpclmul//g' algebra/FFT/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' libstark/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' starkdpm/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' libstark-tests/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' algebra/algebralib/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' tinyram/stark-tinyram/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' algebra/algebralib-tests/Makefile
         sed -i.bak 's/-maes -msse4 -mtune=native//g' tinyram/gadgetlib/gadgetlib/Makefile
-        sed -i.bak 's/-maes -msse4//g' libSTARK/Makefile
-        sed -i.bak 's/-mpclmul//g' algebra/FFT/Makefile
+        sed -i.bak 's/-maes -msse4 -mtune=native//g' tinyram/stark-tinyram-tests/Makefile
         # Set the base CFLAGS without CPU-specific flags for macOS
         sed -i.bak 's/CFLAGS =/CFLAGS = -fPIC -std=c++14 -O3 -w/' flags.mk
         make fft algebralib libstark gadgetlib CC=gcc-13 CXX=g++-13 AR=gcc-ar-13
