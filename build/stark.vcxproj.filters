@@ -4,6 +4,1182 @@
     <Filter Include="..">
       <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAM">
+      <UniqueIdentifier>{181071A8-4523-5945-0473-6DDA787E44EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAM">
+      <UniqueIdentifier>{181071A8-4523-5945-0473-6DDA787E44EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\ConstraintSystemToBair">
+      <UniqueIdentifier>{8AE64A77-168C-84E0-1D43-C63E28F32723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem">
+      <UniqueIdentifier>{23FC6C6D-30CB-6064-C092-36CFA9AC57D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem">
+      <UniqueIdentifier>{23FC6C6D-30CB-6064-C092-36CFA9AC57D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem">
+      <UniqueIdentifier>{23FC6C6D-30CB-6064-C092-36CFA9AC57D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem">
+      <UniqueIdentifier>{23FC6C6D-30CB-6064-C092-36CFA9AC57D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem">
+      <UniqueIdentifier>{23FC6C6D-30CB-6064-C092-36CFA9AC57D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram">
+      <UniqueIdentifier>{7592D0DD-9BAB-885B-051B-74B90001A3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair">
+      <UniqueIdentifier>{989CABE7-A2AA-6794-10D2-8B427FF87856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem">
+      <UniqueIdentifier>{23FC6C6D-30CB-6064-C092-36CFA9AC57D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Fri">
+      <UniqueIdentifier>{E632F1D3-3FBD-26A8-F0CE-65EC2D8FD214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Fri">
+      <UniqueIdentifier>{E632F1D3-3FBD-26A8-F0CE-65EC2D8FD214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Fri">
+      <UniqueIdentifier>{E632F1D3-3FBD-26A8-F0CE-65EC2D8FD214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Fri\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Fri">
+      <UniqueIdentifier>{E632F1D3-3FBD-26A8-F0CE-65EC2D8FD214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Fri\verifier_details">
+      <UniqueIdentifier>{44FB5099-FC66-24FF-FDD9-19B528FA8279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Ali">
+      <UniqueIdentifier>{1FDAE20F-98DC-432D-12ED-C85681488E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Ali">
+      <UniqueIdentifier>{1FDAE20F-98DC-432D-12ED-C85681488E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Ali">
+      <UniqueIdentifier>{1FDAE20F-98DC-432D-12ED-C85681488E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Ali\common_details">
+      <UniqueIdentifier>{02DC9466-EA0F-A19E-F81C-09F8CE04E136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Ali">
+      <UniqueIdentifier>{1FDAE20F-98DC-432D-12ED-C85681488E4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\Ali\verifier_details">
+      <UniqueIdentifier>{44FB5099-FC66-24FF-FDD9-19B528FA8279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols">
+      <UniqueIdentifier>{D3F2D25D-7D74-3360-E665-510701F014CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\protocols\common\CryptoCommitment">
+      <UniqueIdentifier>{3F413070-ECE6-7A5C-3D0E-3FDDB46D61F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Details">
+      <UniqueIdentifier>{770AFB8B-ABC5-9E45-A932-E71BD20E04F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions">
+      <UniqueIdentifier>{CE3489CD-509B-F3C9-6766-300603EA110D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp">
+      <UniqueIdentifier>{02A493CF-6DDA-D4DA-88B3-A36566B0BF79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\reductions\BairToAcsp\Routing">
+      <UniqueIdentifier>{858328C1-3149-CDF2-B909-ECBFBA571823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\languages">
+      <UniqueIdentifier>{778288A5-0DC4-C8A3-5DAF-3360B5B2F41D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\languages\Bair">
+      <UniqueIdentifier>{66E1E7BE-9A31-8B73-720C-6449BEC7959F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\languages">
+      <UniqueIdentifier>{778288A5-0DC4-C8A3-5DAF-3360B5B2F41D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\languages\Bair">
+      <UniqueIdentifier>{66E1E7BE-9A31-8B73-720C-6449BEC7959F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\languages">
+      <UniqueIdentifier>{778288A5-0DC4-C8A3-5DAF-3360B5B2F41D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\languages\Acsp">
+      <UniqueIdentifier>{CC233930-7169-046F-E68F-683E0ACDA896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Utils">
+      <UniqueIdentifier>{FADDBC92-692B-AF0F-D617-4F5285071347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Utils">
+      <UniqueIdentifier>{FADDBC92-692B-AF0F-D617-4F5285071347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Utils">
+      <UniqueIdentifier>{FADDBC92-692B-AF0F-D617-4F5285071347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Infrastructure">
+      <UniqueIdentifier>{7AEC5D57-912D-C466-81C6-4A778FA45DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Algebra">
+      <UniqueIdentifier>{489E3F3B-71AA-ADBA-8CF4-7D6B7BF1BE2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Algebra">
+      <UniqueIdentifier>{489E3F3B-71AA-ADBA-8CF4-7D6B7BF1BE2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK">
+      <UniqueIdentifier>{AAD1F456-2A9E-81DC-A9A4-DFF2E0F43341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common">
+      <UniqueIdentifier>{2F5FD094-EF52-77F7-7AA8-4327A01BF747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\libSTARK\src\common\Algebra">
+      <UniqueIdentifier>{489E3F3B-71AA-ADBA-8CF4-7D6B7BF1BE2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram">
+      <UniqueIdentifier>{5B33E94D-8849-A8F3-456C-A9F35039C2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\tinyram\gadgetlib\gadgetlib">
+      <UniqueIdentifier>{3CD9D359-9068-32A1-D6EE-578C6F8BA617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib">
+      <UniqueIdentifier>{6225F0F3-B240-1FB0-CDBB-5BC3BE799A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\algebralib\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT">
+      <UniqueIdentifier>{8A580A80-EC97-23F5-372F-164B17143F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT">
+      <UniqueIdentifier>{8A580A80-EC97-23F5-372F-164B17143F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT">
+      <UniqueIdentifier>{8A580A80-EC97-23F5-372F-164B17143F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT">
+      <UniqueIdentifier>{8A580A80-EC97-23F5-372F-164B17143F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra">
+      <UniqueIdentifier>{8E03D427-0266-1C59-E8F2-14EDE7A5E775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT">
+      <UniqueIdentifier>{8A580A80-EC97-23F5-372F-164B17143F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\algebra\FFT\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
     <Filter Include="C:">
       <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
     </Filter>
@@ -25,16 +1201,10 @@
     <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules">
       <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\npm">
-      <UniqueIdentifier>{741E0E76-39B2-B1AB-9FA1-F1A20B16F295}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\node_modules">
-      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp">
+    <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\node-gyp">
       <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\src">
+    <Filter Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\node-gyp\src">
       <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="..">
@@ -45,8 +1215,242 @@
     <ClCompile Include="..\addon.cpp">
       <Filter>..</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
-      <Filter>C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\src</Filter>
+    <ClCompile Include="..\stark_ffi.cpp">
+      <Filter>..</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAM\TinyRAMDefinitions.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAM\TinyRAMInstance.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\ConstraintSystemToBair\cs2Bair.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\ConstraintSystemToBair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\ALU.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\ALUInputConsistency.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\generalPurpose.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\MemoryConsraints.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\traceConsistency.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\transitionFunction.cpp">
+      <Filter>..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\protocol.cpp">
+      <Filter>..\libSTARK\src\protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\prover.cpp">
+      <Filter>..\libSTARK\src\protocols\Fri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\verifier.cpp">
+      <Filter>..\libSTARK\src\protocols\Fri</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\common\common.cpp">
+      <Filter>..\libSTARK\src\protocols\Fri\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\verifier_details\queryGenerator.cpp">
+      <Filter>..\libSTARK\src\protocols\Fri\verifier_details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\prover.cpp">
+      <Filter>..\libSTARK\src\protocols\Ali</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\verifier.cpp">
+      <Filter>..\libSTARK\src\protocols\Ali</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\common_details\common.cpp">
+      <Filter>..\libSTARK\src\protocols\Ali\common_details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\verifier_details\queriesGen.cpp">
+      <Filter>..\libSTARK\src\protocols\Ali\verifier_details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\common\verifier.cpp">
+      <Filter>..\libSTARK\src\protocols\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\common\proofs.cpp">
+      <Filter>..\libSTARK\src\protocols\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\common\CryptoCommitment\MerkleCommitment.cpp">
+      <Filter>..\libSTARK\src\protocols\common\CryptoCommitment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\BairToAcsp.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\witnessReduction.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\witnessMappings.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\constraints.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\constraintSystemsTestLocations.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\commonMappings.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\commonDeffinitions.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\AcspSummandsPolynomial.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\instanceMappings.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\neighborsConstructor.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\spaces.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Details</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\BenesNetwork.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\BitReverseButterfliesNetwork.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\BtrflyBasedPermutation.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\DeBruijnPermutationNet.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\FoldNetwork.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\LongDeBruijnPermutationNet.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\LongSymmetricDeBruijnNetwork.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\PermutationRoutingNet.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\SymmetricDeBruijnNetwork.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\TandemNetwork.cpp">
+      <Filter>..\libSTARK\src\reductions\BairToAcsp\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\languages\Bair\BairWitnessChecker.cpp">
+      <Filter>..\libSTARK\src\languages\Bair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\languages\Bair\ConstraintsSys.cpp">
+      <Filter>..\libSTARK\src\languages\Bair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\languages\Acsp\AcspWitnessChecker.cpp">
+      <Filter>..\libSTARK\src\languages\Acsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Utils\Timing.cpp">
+      <Filter>..\libSTARK\src\common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Utils\specsPrint.cpp">
+      <Filter>..\libSTARK\src\common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Utils\ErrorHandling.cpp">
+      <Filter>..\libSTARK\src\common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Infrastructure\Infrastructure.cpp">
+      <Filter>..\libSTARK\src\common\Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Algebra\MultiVarPoly.cpp">
+      <Filter>..\libSTARK\src\common\Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Algebra\LinearSpace.cpp">
+      <Filter>..\libSTARK\src\common\Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Algebra\ShiftedSubspacePolynomial.cpp">
+      <Filter>..\libSTARK\src\common\Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\common_use.cpp">
+      <Filter>..\tinyram\gadgetlib\gadgetlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\constraint.cpp">
+      <Filter>..\tinyram\gadgetlib\gadgetlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\gadget.cpp">
+      <Filter>..\tinyram\gadgetlib\gadgetlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\infrastructure.cpp">
+      <Filter>..\tinyram\gadgetlib\gadgetlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\protoboard.cpp">
+      <Filter>..\tinyram\gadgetlib\gadgetlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\AffinePolynomial.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\AffineSpace.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\BitExtract.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\CircuitPolynomial.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\ErrorHandling.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\FFT.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\FieldElement.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\LinearPolynomial.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\MappingsSys.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\PolynomialDegree.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\SelectorSum.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\SubspacePolynomial.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\UnivariatePolynomialGeneral.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\variable.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\novelFFT.cpp">
+      <Filter>..\algebra\algebralib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Basis.cpp">
+      <Filter>..\algebra\FFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Definitions.cpp">
+      <Filter>..\algebra\FFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Element.cpp">
+      <Filter>..\algebra\FFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\FFT.cpp">
+      <Filter>..\algebra\FFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Polynomials.cpp">
+      <Filter>..\algebra\FFT\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\Admin\AppData\Roaming\npm\node_modules\node-gyp\src</Filter>
     </ClCompile>
     <None Include="..\binding.gyp">
       <Filter>..</Filter>

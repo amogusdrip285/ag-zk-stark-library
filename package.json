@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A Node.js wrapper for the libstark ZK-STARK library.",
   "main": "index.js",
+  "files": [
+    "prebuilds"
+  ],
   "scripts": {
     "install": "node-gyp-build",
-    "build": "node-gyp rebuild",
     "prebuild": "prebuildify --napi"
   },
   "dependencies": {
@@ -13,8 +15,7 @@
   },
   "devDependencies": {
     "prebuildify": "^6.0.0",
-    "node-addon-api": "^8.5.0",
-    "napi-macros": "^2.2.2"
+    "node-addon-api": "^8.0.0"
   },
   "gypfile": true
 }

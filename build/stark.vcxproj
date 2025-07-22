@@ -48,8 +48,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;\mnt\c\dev\libSTARK\node_modules\node-addon-api;\mnt\c\dev\libSTARK\node_modules\napi-macros;\mnt\c\dev\libSTARK\libstark\src;\mnt\c\dev\libSTARK\tinyram\stark-tinyram\src;\mnt\c\dev\libSTARK\algebra\algebralib\headers;\mnt\c\dev\libSTARK\algebra\FFT\src;\mnt\c\dev\libSTARK\tinyram\gadgetlib;\mnt\c\dev\libSTARK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:__cplusplus -std:c++20 /Zm2000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;..\node_modules\node-addon-api;..\libSTARK\src;..\tinyram\stark-tinyram\src;..\algebra\algebralib\headers;..\algebra\FFT\src;..\tinyram\gadgetlib;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:__cplusplus -std:c++20 /Zm2000 /std:c++14 /GR %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -72,7 +72,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Admin\\AppData\\Local\\node-gyp\\Cache\\22.17.1\\x64\\node.lib&quot;;-L\mnt\c\dev\libSTARK\bin\libstark.lib;-L\mnt\c\dev\libSTARK\bin\gadgetlib.lib;-L\mnt\c\dev\libSTARK\bin\algebralib.lib;-L\mnt\c\dev\libSTARK\bin\FFT.lib;-Wl,-Bstatic.lib;stark.lib;gadgetlib.lib;algebralib.lib;fft.lib;gmp.lib;-Wl,-Bdynamic.lib;pthread.lib;-fopenmp.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Admin\\AppData\\Local\\node-gyp\\Cache\\22.17.1\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -84,14 +84,14 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;\mnt\c\dev\libSTARK\node_modules\node-addon-api;\mnt\c\dev\libSTARK\node_modules\napi-macros;\mnt\c\dev\libSTARK\libstark\src;\mnt\c\dev\libSTARK\tinyram\stark-tinyram\src;\mnt\c\dev\libSTARK\algebra\algebralib\headers;\mnt\c\dev\libSTARK\algebra\FFT\src;\mnt\c\dev\libSTARK\tinyram\gadgetlib;\mnt\c\dev\libSTARK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;..\node_modules\node-addon-api;..\libSTARK\src;..\tinyram\stark-tinyram\src;..\algebra\algebralib\headers;..\algebra\FFT\src;..\tinyram\gadgetlib;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=stark;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;_FILE_OFFSET_BITS=64;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NOMINMAX;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;\mnt\c\dev\libSTARK\node_modules\node-addon-api;\mnt\c\dev\libSTARK\node_modules\napi-macros;\mnt\c\dev\libSTARK\libstark\src;\mnt\c\dev\libSTARK\tinyram\stark-tinyram\src;\mnt\c\dev\libSTARK\algebra\algebralib\headers;\mnt\c\dev\libSTARK\algebra\FFT\src;\mnt\c\dev\libSTARK\tinyram\gadgetlib;\mnt\c\dev\libSTARK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/Zc:__cplusplus -std:c++20 /Zm2000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;..\node_modules\node-addon-api;..\libSTARK\src;..\tinyram\stark-tinyram\src;..\algebra\algebralib\headers;..\algebra\FFT\src;..\tinyram\gadgetlib;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:__cplusplus -std:c++20 /Zm2000 /std:c++14 /GR %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <DisableSpecificWarnings>4351;4355;4800;4251;4275;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -117,7 +117,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Admin\\AppData\\Local\\node-gyp\\Cache\\22.17.1\\x64\\node.lib&quot;;-L\mnt\c\dev\libSTARK\bin\libstark.lib;-L\mnt\c\dev\libSTARK\bin\gadgetlib.lib;-L\mnt\c\dev\libSTARK\bin\algebralib.lib;-L\mnt\c\dev\libSTARK\bin\FFT.lib;-Wl,-Bstatic.lib;stark.lib;gadgetlib.lib;algebralib.lib;fft.lib;gmp.lib;-Wl,-Bdynamic.lib;pthread.lib;-fopenmp.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\Admin\\AppData\\Local\\node-gyp\\Cache\\22.17.1\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -129,7 +129,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;\mnt\c\dev\libSTARK\node_modules\node-addon-api;\mnt\c\dev\libSTARK\node_modules\napi-macros;\mnt\c\dev\libSTARK\libstark\src;\mnt\c\dev\libSTARK\tinyram\stark-tinyram\src;\mnt\c\dev\libSTARK\algebra\algebralib\headers;\mnt\c\dev\libSTARK\algebra\FFT\src;\mnt\c\dev\libSTARK\tinyram\gadgetlib;\mnt\c\dev\libSTARK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\include\node;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\src;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\config;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\openssl\openssl\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\uv\include;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\zlib;C:\Users\Admin\AppData\Local\node-gyp\Cache\22.17.1\deps\v8\include;..\node_modules\node-addon-api;..\libSTARK\src;..\tinyram\stark-tinyram\src;..\algebra\algebralib\headers;..\algebra\FFT\src;..\tinyram\gadgetlib;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=stark;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;_FILE_OFFSET_BITS=64;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NOMINMAX;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -140,7 +140,241 @@
     <ClCompile Include="..\addon.cpp">
       <ObjectFileName>$(IntDir)\addon.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
+    <ClCompile Include="..\stark_ffi.cpp">
+      <ObjectFileName>$(IntDir)\stark_ffi.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAM\TinyRAMDefinitions.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAM\TinyRAMDefinitions.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAM\TinyRAMInstance.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAM\TinyRAMInstance.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\ConstraintSystemToBair\cs2Bair.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\ConstraintSystemToBair\cs2Bair.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\ALU.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\ALU.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\ALUInputConsistency.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\ALUInputConsistency.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\generalPurpose.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\generalPurpose.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\MemoryConsraints.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\MemoryConsraints.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\traceConsistency.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\traceConsistency.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\transitionFunction.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\stark-tinyram\src\TinyRAMtoBair\RamToContraintSystem\transitionFunction.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\protocol.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\protocol.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\prover.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Fri\prover.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\verifier.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Fri\verifier.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\common\common.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Fri\common\common.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Fri\verifier_details\queryGenerator.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Fri\verifier_details\queryGenerator.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\prover.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Ali\prover.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\verifier.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Ali\verifier.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\common_details\common.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Ali\common_details\common.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\Ali\verifier_details\queriesGen.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\Ali\verifier_details\queriesGen.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\common\verifier.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\common\verifier.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\common\proofs.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\common\proofs.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\protocols\common\CryptoCommitment\MerkleCommitment.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\protocols\common\CryptoCommitment\MerkleCommitment.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\BairToAcsp.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\BairToAcsp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\witnessReduction.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\witnessReduction.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\witnessMappings.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\witnessMappings.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\constraints.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\constraints.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\constraintSystemsTestLocations.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\constraintSystemsTestLocations.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\commonMappings.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\commonMappings.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\commonDeffinitions.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\commonDeffinitions.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\AcspSummandsPolynomial.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\AcspSummandsPolynomial.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\instanceMappings.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\instanceMappings.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\neighborsConstructor.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\neighborsConstructor.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Details\spaces.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Details\spaces.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\BenesNetwork.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\BenesNetwork.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\BitReverseButterfliesNetwork.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\BitReverseButterfliesNetwork.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\BtrflyBasedPermutation.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\BtrflyBasedPermutation.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\DeBruijnPermutationNet.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\DeBruijnPermutationNet.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\FoldNetwork.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\FoldNetwork.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\LongDeBruijnPermutationNet.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\LongDeBruijnPermutationNet.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\LongSymmetricDeBruijnNetwork.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\LongSymmetricDeBruijnNetwork.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\PermutationRoutingNet.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\PermutationRoutingNet.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\SymmetricDeBruijnNetwork.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\SymmetricDeBruijnNetwork.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\reductions\BairToAcsp\Routing\TandemNetwork.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\reductions\BairToAcsp\Routing\TandemNetwork.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\languages\Bair\BairWitnessChecker.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\languages\Bair\BairWitnessChecker.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\languages\Bair\ConstraintsSys.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\languages\Bair\ConstraintsSys.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\languages\Acsp\AcspWitnessChecker.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\languages\Acsp\AcspWitnessChecker.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Utils\Timing.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Utils\Timing.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Utils\specsPrint.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Utils\specsPrint.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Utils\ErrorHandling.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Utils\ErrorHandling.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Infrastructure\Infrastructure.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Infrastructure\Infrastructure.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Algebra\MultiVarPoly.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Algebra\MultiVarPoly.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Algebra\LinearSpace.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Algebra\LinearSpace.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\libSTARK\src\common\Algebra\ShiftedSubspacePolynomial.cpp">
+      <ObjectFileName>$(IntDir)\libSTARK\src\common\Algebra\ShiftedSubspacePolynomial.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\common_use.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\gadgetlib\gadgetlib\common_use.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\constraint.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\gadgetlib\gadgetlib\constraint.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\gadget.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\gadgetlib\gadgetlib\gadget.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\infrastructure.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\gadgetlib\gadgetlib\infrastructure.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\tinyram\gadgetlib\gadgetlib\protoboard.cpp">
+      <ObjectFileName>$(IntDir)\tinyram\gadgetlib\gadgetlib\protoboard.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\AffinePolynomial.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\AffinePolynomial.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\AffineSpace.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\AffineSpace.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\BitExtract.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\BitExtract.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\CircuitPolynomial.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\CircuitPolynomial.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\ErrorHandling.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\ErrorHandling.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\FFT.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\FFT.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\FieldElement.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\FieldElement.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\LinearPolynomial.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\LinearPolynomial.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\MappingsSys.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\MappingsSys.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\PolynomialDegree.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\PolynomialDegree.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\SelectorSum.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\SelectorSum.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\SubspacePolynomial.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\SubspacePolynomial.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\UnivariatePolynomialGeneral.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\UnivariatePolynomialGeneral.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\variable.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\variable.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\algebralib\src\novelFFT.cpp">
+      <ObjectFileName>$(IntDir)\algebra\algebralib\src\novelFFT.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Basis.cpp">
+      <ObjectFileName>$(IntDir)\algebra\FFT\src\Basis.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Definitions.cpp">
+      <ObjectFileName>$(IntDir)\algebra\FFT\src\Definitions.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Element.cpp">
+      <ObjectFileName>$(IntDir)\algebra\FFT\src\Element.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\FFT.cpp">
+      <ObjectFileName>$(IntDir)\algebra\FFT\src\FFT.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\algebra\FFT\src\Polynomials.cpp">
+      <ObjectFileName>$(IntDir)\algebra\FFT\src\Polynomials.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
   <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>

@@ -493,16 +493,6 @@
     "nodedir": "C:\\Users\\Admin\\AppData\\Local\\node-gyp\\Cache\\22.17.1",
     "python": "C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
     "standalone_static_library": 1,
-    "msbuild_path": "D:\\vs\\MSBuild\\Current\\Bin\\MSBuild.exe",
-    "cache": "C:\\Users\\Admin\\AppData\\Local\\npm-cache",
-    "globalconfig": "C:\\Users\\Admin\\AppData\\Roaming\\npm\\etc\\npmrc",
-    "global_prefix": "C:\\Users\\Admin\\AppData\\Roaming\\npm",
-    "init_module": "C:\\Users\\Admin\\.npm-init.js",
-    "local_prefix": "C:\\dev\\libSTARK",
-    "node_gyp": "C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
-    "npm_version": "11.4.2",
-    "prefix": "C:\\Users\\Admin\\AppData\\Roaming\\npm",
-    "userconfig": "C:\\Users\\Admin\\.npmrc",
-    "user_agent": "npm/11.4.2 node/v22.17.1 win32 x64 workspaces/false"
+    "msbuild_path": "D:\\vs\\MSBuild\\Current\\Bin\\MSBuild.exe"
   }
 }
